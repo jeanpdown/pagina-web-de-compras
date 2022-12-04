@@ -54,7 +54,7 @@ a{
     gap: 20px;
 }
 .contenedor-producto-elemento{
-    background: rgb(193, 187, 187);
+    background: rgba(193, 187, 187,0.3);
     display: flex;
     align-items: center;
     padding: 10px;
