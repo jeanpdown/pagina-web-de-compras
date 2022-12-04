@@ -3,3 +3,12 @@
     display: none;
 
 }
+
+.menu-celular{
+    display: flex;
+    align-items: center;
+    gap: space-around;
+}
+.menu_img-cel{
+    height: 120px;
+}
