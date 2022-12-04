@@ -17,10 +17,8 @@ function mostrarMenu(){
 function cambiarImagenPortada(number,punto){
     let imagen=document.getElementById("imagen-portada");
     let puntos=document.getElementsByClassName("punto");
-    console.log(puntos.length);
     for(let i=0;i<puntos.length;i++){
         puntos[i].style.background="white";
-        console.log(puntos[i]);
     }
 
     if(number==1){

@@ -1,4 +1,7 @@
 
+body{
+    overflow-x: hidden;
+}
 .menu-computadora{
     display: none;
 
@@ -44,6 +47,7 @@
     
 }
 .contenedor-puntos{
+    margin-top: 20px;
     justify-content: center;
     display: flex;
     gap: 20px;
