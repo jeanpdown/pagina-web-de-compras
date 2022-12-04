@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
+body{
+    overflow-x: hidden;
+    margin: 0;
+}
+.menu-computadora{
+    display: none;
+
+}
+
+.menu-celular{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right:20px;
+    border-bottom: 2px solid black;
+}
+.menu_img-cel{
+    height: 120px;
+}
+
+.menu-celular_desplegable{
+    display: none;
+    padding-top: 140px;
+    background-color: white;
+    position: absolute;
+    height: 170%;
+    width: 300px;
+    top: 0;
+    border-right: 1px solid black;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.menu-celular_desplegable-links{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    gap: 40px;
+}
+.menu-celular_desplegable-links_elemento{
+    border-bottom: 2px solid black;
+}
+.contenedor-imagen-portada{
+    text-align: center;
+    margin-top: 20px;
+}
+.img-portada{
+    height: 400px;
+    object-fit: cover;
+    
+}
+.contenedor-puntos{
+    margin-top: 20px;
+    justify-content: center;
+    display: flex;
+    gap: 20px;
+}
+.punto{
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 10px;
+    height: 10px;
+}
+
+.mapa-peru{
+    height: 200px;
+}
+.envios-caja-principal{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contenedor-envios{
+    
+    padding: 20px;
+    margin-top: 40px;
+    background: black;
+    height: 620px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.envios{
+    margin: auto;
+    display: flex;
+    background:white;
+    width: 90%;
+    font-size: 30px;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.envios-text{
+    color: rgb(37, 25, 218);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.contenedor-envios-imt-text{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.marvisur{
+    height: 80px;
+}
+.persona-pc{
+    height: 190px;
+}
+
+.pie-de-pagina{
+    margin-top: 30px;
+    background: rgb(39, 38, 43);
+    padding: 20px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    font-size: 24px;
+    width: 100%;
+}
+.contenedor-iconos{
+    padding-top: 9px;
+    padding-bottom: 9px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-around;
+}
+
+@media (min-width: 1440px) {
+    .menu-celular{
+        display: none;
+    }
+    .menu-computadora{
+        display: flex;
+        border-bottom: 2px solid black;
+        padding-left: 20px;
+    }
+    a{
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
+    .img-computer{
+        width: 80px;
+    }
+    .computer-links{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .link-pag{
+        display: flex;
+        align-items: center;
+        height:50px;
+    }
+    .link-pag:hover{
+        border-bottom: 4px solid black;
+    }
+    .img-portada{
+        height: 800px;
+    }
+    .imagen1{
+        content: url("imagenes/portada1-pc.png");
+    }
+    .imagen2{
+        content: url("imagenes/portada2-pc.jpg");
+    }
+    .imagen3{
+        content: url("imagenes/portada3-pc.jpg");
+    }
+    .envios-caja-principal{
+        margin: 50px 0 50px 0;
+    }
+    .contenedor-envios-imt-text{
+        flex-direction: row;
+        gap: 40px;
+    }
+    
+    .contenedor-envios{
+        height: 600px;
+    }
+    .mapa-peru{
+        height: 200px;
+    }
+    .marvisur{
+        height: 210px;
+    }
+    .persona-pc{
+        height: 300px;
+    }
+    .pie-de-pagina{
+        font-size: 15px;
+        gap:0;
+    }
+    .icono{
+        height: 25px;
+    }
+}
