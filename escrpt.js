@@ -31,7 +31,7 @@ function cambiarImagenPortada(number,punto){
         imagen.setAttribute("src","imagenes/portada2-cl.jpg");
         punto.style.background="black";
     }else{
-        
+        imagen.setAttribute("src","imagenes/portada3-cl.jpg");
         punto.style.background="black";
     }
 }
