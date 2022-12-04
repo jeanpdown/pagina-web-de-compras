@@ -34,9 +34,9 @@
     justify-content: start;
     gap: 40px;
 }
-.contenedor-img-portada{
-
-    
+.contenedor-imagen-portada{
+    text-align: center;
+    margin-top: 20px;
 }
 .img-portada{
     height: 500px;
