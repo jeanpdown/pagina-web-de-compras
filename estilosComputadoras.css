@@ -1,6 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Kanit:wght@500&family=Zen+Dots&display=swap');
 body{
     overflow-x: hidden;
     margin: 0;
+}
+p{
+    display: inline-block;
 }
 .menu-computadora{
     display: none;
@@ -45,8 +49,19 @@ a{
 }
 
 .contenedor-producto{
-
+    padding: 20px;
+    display: grid;
+    gap: 20px;
+}
+.contenedor-producto-elemento{
+    background: rgb(193, 187, 187);
+    display: flex;
+    align-items: center;
+    padding: 10px;
 }
 .imagen-producto{
     height: 140px;
+}
+.contenedor-detalles{
+    padding: 10px;
 }
