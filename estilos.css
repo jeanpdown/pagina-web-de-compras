@@ -7,7 +7,9 @@
 .menu-celular{
     display: flex;
     align-items: center;
-    gap: space-around;
+    justify-content: space-between;
+    padding-right:20px;
+    border-bottom: 2px solid black;
 }
 .menu_img-cel{
     height: 120px;
