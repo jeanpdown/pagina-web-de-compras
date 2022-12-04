@@ -1,6 +1,7 @@
 
 body{
     overflow-x: hidden;
+    margin: 0;
 }
 .menu-computadora{
     display: none;
@@ -57,4 +58,32 @@ body{
     border: 2px solid black;
     width: 10px;
     height: 10px;
+}
+
+.mapa-peru{
+    height: 210px;
+}
+.contenedor-envios{
+    
+    padding: 20px;
+    margin-top: 40px;
+    background: black;
+    height: 500px;
+    width: 92%;
+}
+.envios{
+    margin: auto;
+    display: flex;
+    background:white;
+    width: 90%;
+    font-size: 30px;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+.envios-text{
+    display: flex;
+    align-items: center;
+}
+.marvisur{
+    height: 110px;
 }
