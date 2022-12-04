@@ -125,4 +125,11 @@ a{
     .contenedor-detalles{
         font-size: 22px;
     }
+    .pie-de-pagina{
+        font-size: 15px;
+        gap:0;
+    }
+    .icono{
+        height: 25px;
+    }
 }
