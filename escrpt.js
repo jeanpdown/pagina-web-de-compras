@@ -13,12 +13,7 @@ function mostrarMenu(){
     
 }
 
-function cambiarImagenPC(){
-    let imagen=document.getElementById("imagen-portada");
-    if(screen.width >1440){
-        imagen.setAttribute("src","imagenes/portada1-pc.png");
-    }
-}
+
 function cambiarImagenPortada(number,punto){
     let imagen=document.getElementById("imagen-portada");
     let puntos=document.getElementsByClassName("punto");

@@ -49,7 +49,7 @@ a{
     margin-top: 20px;
 }
 .img-portada{
-    height: 500px;
+    height: 400px;
     object-fit: cover;
     
 }
@@ -67,9 +67,10 @@ a{
 }
 
 .mapa-peru{
-    height: 210px;
+    height: 200px;
 }
 .envios-caja-principal{
+    padding-left: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -109,10 +110,10 @@ a{
     gap: 20px;
 }
 .marvisur{
-    height: 110px;
+    height: 80px;
 }
 .persona-pc{
-    height: 210px;
+    height: 190px;
 }
 
 .pie-de-pagina{
@@ -124,6 +125,7 @@ a{
     gap: 20px;
     color: white;
     font-size: 24px;
+    width: 100%;
 }
 .contenedor-iconos{
     padding-top: 9px;
@@ -160,6 +162,7 @@ a{
         border-bottom: 2px solid black;
     }
     .img-portada{
+        content: url("imagenes/portada1-pc.png");
         height: 800px;
     }
     .envios-caja-principal{
