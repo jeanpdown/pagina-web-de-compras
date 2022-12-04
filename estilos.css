@@ -133,6 +133,31 @@ a{
     display: flex;
     justify-content: space-around;
 }
-.icono{
 
+@media (min-width: 1440px) {
+    .menu-celular{
+        display: none;
+    }
+    .menu-computadora{
+        display: flex;
+        border-bottom: 2px solid black;
+        padding-left: 20px;
+    }
+    .img-computer{
+        width: 130px;
+    }
+    .computer-links{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .link-pag{
+        display: flex;
+        align-items: center;
+        height:50px;
+    }
+    .link-pag:hover{
+        border-bottom: 2px solid black;
+    }
 }
