@@ -21,6 +21,7 @@ function cambiarImagenPortada(number,punto){
         puntos[i].style.background="white";
     }
     if(screen.width <1440){
+        
         if(number==1){
             imagen.setAttribute("src","imagenes/portada1-cl.png");
             punto.style.background="black";
@@ -33,15 +34,18 @@ function cambiarImagenPortada(number,punto){
             punto.style.background="black";
         }
     }else{
+        imagen.classList.remove("imagen1");
+        imagen.classList.remove("imagen2");
+        imagen.classList.remove("imagen3");
         if(number==1){
-            imagen.setAttribute("src","imagenes/portada1-pc.png");
+            imagen.classList.add("imagen1");
             punto.style.background="black";
         }else if(number==2){
             
-            imagen.setAttribute("src","imagenes/portada2-pc.jpg");
+            imagen.classList.add("imagen2");
             punto.style.background="black";
         }else{
-            imagen.setAttribute("src","imagenes/portada3-pc.jpg");
+            imagen.classList.add("imagen3");
             punto.style.background="black";
         }
     }

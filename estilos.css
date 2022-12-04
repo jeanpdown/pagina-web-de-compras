@@ -70,7 +70,7 @@ a{
     height: 200px;
 }
 .envios-caja-principal{
-    padding-left: 10px;
+
     display: flex;
     align-items: center;
     justify-content: center;
@@ -145,7 +145,7 @@ a{
         padding-left: 20px;
     }
     .img-computer{
-        width: 130px;
+        width: 80px;
     }
     .computer-links{
         width: 100%;
@@ -162,8 +162,16 @@ a{
         border-bottom: 2px solid black;
     }
     .img-portada{
-        content: url("imagenes/portada1-pc.png");
         height: 800px;
+    }
+    .imagen1{
+        content: url("imagenes/portada1-pc.png");
+    }
+    .imagen2{
+        content: url("imagenes/portada2-pc.jpg");
+    }
+    .imagen3{
+        content: url("imagenes/portada3-pc.jpg");
     }
     .envios-caja-principal{
         margin: 50px 0 50px 0;
@@ -172,6 +180,7 @@ a{
         flex-direction: row;
         gap: 40px;
     }
+    
     .contenedor-envios{
         height: 600px;
     }
@@ -183,5 +192,12 @@ a{
     }
     .persona-pc{
         height: 300px;
+    }
+    .pie-de-pagina{
+        font-size: 15px;
+        gap:0;
+    }
+    .icono{
+        height: 25px;
     }
 }
