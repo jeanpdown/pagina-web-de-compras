@@ -43,3 +43,10 @@ a{
 .menu-celular_desplegable-links_elemento{
     border-bottom: 2px solid black;
 }
+
+.contenedor-producto{
+
+}
+.imagen-producto{
+    height: 140px;
+}
