@@ -126,7 +126,6 @@ a{
     font-size: 24px;
 }
 .contenedor-iconos{
-    border: 2px solid white;
     padding-top: 9px;
     padding-bottom: 9px;
     border-radius: 6px;
@@ -159,5 +158,27 @@ a{
     }
     .link-pag:hover{
         border-bottom: 2px solid black;
+    }
+    .img-portada{
+        height: 800px;
+    }
+    .envios-caja-principal{
+        margin: 50px 0 50px 0;
+    }
+    .contenedor-envios-imt-text{
+        flex-direction: row;
+        gap: 40px;
+    }
+    .contenedor-envios{
+        height: 600px;
+    }
+    .mapa-peru{
+        height: 200px;
+    }
+    .marvisur{
+        height: 210px;
+    }
+    .persona-pc{
+        height: 300px;
     }
 }

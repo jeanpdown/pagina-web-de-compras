@@ -13,23 +13,42 @@ function mostrarMenu(){
     
 }
 
-
+function cambiarImagenPC(){
+    let imagen=document.getElementById("imagen-portada");
+    if(screen.width >1440){
+        imagen.setAttribute("src","imagenes/portada1-pc.png");
+    }
+}
 function cambiarImagenPortada(number,punto){
     let imagen=document.getElementById("imagen-portada");
     let puntos=document.getElementsByClassName("punto");
     for(let i=0;i<puntos.length;i++){
         puntos[i].style.background="white";
     }
-
-    if(number==1){
-        imagen.setAttribute("src","imagenes/portada1-cl.png");
-        punto.style.background="black";
-    }else if(number==2){
-        
-        imagen.setAttribute("src","imagenes/portada2-cl.jpg");
-        punto.style.background="black";
+    if(screen.width <1440){
+        if(number==1){
+            imagen.setAttribute("src","imagenes/portada1-cl.png");
+            punto.style.background="black";
+        }else if(number==2){
+            
+            imagen.setAttribute("src","imagenes/portada2-cl.jpg");
+            punto.style.background="black";
+        }else{
+            imagen.setAttribute("src","imagenes/portada3-cl.jpg");
+            punto.style.background="black";
+        }
     }else{
-        imagen.setAttribute("src","imagenes/portada3-cl.jpg");
-        punto.style.background="black";
+        if(number==1){
+            imagen.setAttribute("src","imagenes/portada1-pc.png");
+            punto.style.background="black";
+        }else if(number==2){
+            
+            imagen.setAttribute("src","imagenes/portada2-pc.jpg");
+            punto.style.background="black";
+        }else{
+            imagen.setAttribute("src","imagenes/portada3-pc.jpg");
+            punto.style.background="black";
+        }
     }
+        
 }
