@@ -116,6 +116,13 @@ a{
         border-bottom: 4px solid black;
     }
 
-    
-
+    .contenedor-producto{
+        grid-template-columns: repeat(2,minmax(500px,1fr));
+    }
+    .imagen-producto{
+        height: 340px;
+    }
+    .contenedor-detalles{
+        font-size: 22px;
+    }
 }
